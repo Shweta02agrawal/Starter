@@ -1,0 +1,145 @@
+
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+color: #222831;
+}
+h1{
+  margin-top: 100px;
+  font-family: 'Vollkorn', serif;
+  font-size: 6.625rem;
+  color: #202040;
+}
+h2{
+  color:#11cdd4;
+  font-size: 3.125rem;
+  font-weight: normal
+  padding-bottom:10px;
+}
+.head{
+  color: #202040;
+}
+p{
+  font-size: 2.0rem;
+}
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 3%;
+  margin: 100px auto 100px auto;
+}
+.intro{
+  width:30%;
+  text-align: center;
+  margin:auto;
+  line-height: 2;
+}
+.Top-container{
+  height: 100;
+  width: 200;
+  background-color:#77d8d8 ;
+  position:relative;
+  padding-top: 100px;
+}
+div{
+  background-image: url(images/scenery.jpg);
+}
+.About{
+  margin:100px 0;
+  line-height: 2;
+
+}
+.member{
+  width:40%;
+  margin:100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+
+
+}
+.first{
+  width:40%;
+  margin:100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+
+}
+.maa-img{
+  width:25%;
+  float:left;
+  margin-right: 50px;
+}
+.bhai-img{
+  width: 25%;
+  float:right;
+margin-left: 50px;
+}
+.s1-img{
+  width:25%;
+  float:left;
+  margin-right: 50px;
+}
+.s2-img{
+  width: 25%;
+  float:right;
+  margin-left: 50px;
+}
+.v-img{
+  width:25%;
+  float:left;
+  margin-right: 50px;
+}
+.bottom-container{
+  background-color: #77d8d8;
+  padding-top: 100px;
+  padding-bottom: 30px;
+  }
+
+.top-cloud{
+  position: absolute;
+  right:500px;
+  top: 100px;
+  bottom: 800px;
+}
+.bottom-cloud{
+  position: absolute;
+  left:180px;
+  bottom: 600px;
+}
+.Contact-me{
+  margin:auto auto 100px 50px
+}
+a{
+  margin:20px 20px;
+  text-decoration: none;
+  color:#11cdd4;
+  font-size: 1.5rem;
+}
+a:hover{
+  color:#EAF6F6;
+}
+.btn {
+	box-shadow: 0px 10px 14px -7px #54a3f7;
+	background:linear-gradient(to bottom, #11cdd4 5%, #0061a7 100%);
+	background-color:#11cdd4;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+  font-family: 'Acme', sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	padding:17px 23px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #154682;
+  margin: 50px 20px;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #0061a7 5%, #11cdd4 100%);
+	background-color:#0061a7;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
